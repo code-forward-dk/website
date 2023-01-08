@@ -1,44 +1,22 @@
+import Splash from "./splash.jpg";
+
 import "./Main.css";
 
 const Main = () => (
   <main className="site-main">
     <div className="site-main-inner-wrapper">
-      <h2>About us</h2>
+      <h2>Our mission</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
-        eum quo, quasi rem ut sit quibusdam error neque perferendis doloremque
-        dolores impedit expedita vero similique ad? Nostrum labore blanditiis
-        molestiae!
+        Our mission is to empower minoritized individuals in Denmark to succeed
+        in the tech industry by providing accessible, high-quality front-end
+        development education and internship opportunities. Through our
+        partnership with leading IT companies, we aim to promote diversity and
+        inclusion in the tech sector, and support the professional growth and
+        success of our participants.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error eum
-        mollitia fugiat quia ab libero animi nisi asperiores consequuntur vero
-        qui neque labore inventore nihil quisquam tenetur, debitis maxime?
-      </p>
-      <h2>Products and solutions</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia id
-        amet sint et repellat corporis sapiente maiores, voluptatum modi
-        suscipit ab aut in ex, repellendus doloribus eius reiciendis. Sed.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dicta
-        modi. Molestiae dolor fugiat libero adipisci sit quis. Minus blanditiis
-        veniam quibusdam aliquam! Ullam inventore itaque sed excepturi ad unde.
-      </p>
-      <h2>Our amazing people</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, excepturi.
-        Debitis dolorem obcaecati eaque ullam repellat porro. Non accusantium
-        nesciunt perferendis repudiandae magnam nostrum iure, distinctio
-        doloribus inventore voluptates molestiae.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-        blanditiis nemo tenetur unde rerum necessitatibus, mollitia odio vel
-        totam recusandae maxime optio reiciendis incidunt distinctio sit aliquid
-        neque velit possimus?
-      </p>
+    </div>
+    <div className="splash" style={{ backgroundImage: `url(${Splash})` }}>
+      <button>Apply now</button>
     </div>
   </main>
 );
