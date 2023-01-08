@@ -14,3 +14,37 @@
   line-height: 1.65;
   margin-bottom: 1.5em;
 }
+
+.site-main .splash {
+  height: 80vh;
+  min-height: 320px;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-top: 2px solid var(--color-brand);
+  margin-top: 1em;
+}
+
+.site-main .splash button {
+  padding: 1em 2em;
+  border-radius: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid var(--color-white);
+  background-color: var(--color-brand);
+  color: var(--color-white);
+  letter-spacing: 0.075em;
+  cursor: pointer;
+  transform: translateY(-50%) translateY(-1px);
+  box-shadow: 0 0 0 2px var(--color-brand);
+  transition: background-color 0.2s;
+}
+
+.site-main .splash button:is(:hover, :active, :focus) {
+  outline: 0;
+  background-color: var(--color-brand-dark);
+}
