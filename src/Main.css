@@ -1,0 +1,16 @@
+.site-main-inner-wrapper {
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: 12px;
+  padding-block: 24px;
+}
+
+.site-main h2 {
+  margin-bottom: 0.5em;
+  font-size: 28px;
+}
+
+.site-main p {
+  line-height: 1.65;
+  margin-bottom: 1.5em;
+}

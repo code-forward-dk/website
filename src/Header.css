@@ -1,0 +1,27 @@
+.site-header {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  box-shadow: 0 12px 12px 6px hsla(0deg 0% 0% / 10%);
+}
+
+.site-header-inner-wrapper {
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: 12px;
+  padding-block: 24px;
+  display: flex;
+}
+
+.site-header .logo-wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.site-header .logo {
+  height: 48px;
+}
+
+.site-header h1 {
+  line-height: 1;
+}

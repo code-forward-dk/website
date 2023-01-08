@@ -1,0 +1,8 @@
+.logo {
+  font-family: "Fira Code", monospace;
+  font-weight: normal;
+}
+
+.logo .arrow {
+  color: var(--color-brand);
+}
