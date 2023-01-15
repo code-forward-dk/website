@@ -9,8 +9,6 @@ import Join from "./Join";
 import Donate from "./Donate";
 import Contact from "./Contact";
 
-import "./Main.css";
-
 const Main = () => (
   <main className="site-main">
     <Mission />

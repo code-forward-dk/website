@@ -23,6 +23,7 @@ body {
   color: hsl(0deg 0% 12.5%);
 
   --color-brand: #008c5b;
+  --color-brand-light: #28bd89;
   --color-brand-dark: #006642;
   --color-black: #282829;
   --color-white: #f2f2f2;
