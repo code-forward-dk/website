@@ -1,0 +1,15 @@
+.site-section-outer-wrapper {
+  border-top: 2px solid var(--color-brand);
+}
+
+.site-section-outer-wrapper.is-dark {
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.site-section-inner-wrapper {
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: 12px;
+  padding-block: 36px 48px;
+}

@@ -1,23 +1,28 @@
-import Splash from "./splash.jpg";
+import Mission from "./Mission";
+import Manifesto from "./Manifesto";
+import Apply from "./Apply";
+import Activities from "./Activities";
+import Curriculum from "./Curriculum";
+import News from "./News";
+import Team from "./Team";
+import Join from "./Join";
+import Donate from "./Donate";
+import Contact from "./Contact";
 
 import "./Main.css";
 
 const Main = () => (
   <main className="site-main">
-    <div className="site-main-inner-wrapper">
-      <h2>Our mission</h2>
-      <p>
-        Our mission is to empower minoritized individuals in Denmark to succeed
-        in the tech industry by providing accessible, high-quality front-end
-        development education and internship opportunities. Through our
-        partnership with leading IT companies, we aim to promote diversity and
-        inclusion in the tech sector, and support the professional growth and
-        success of our participants.
-      </p>
-    </div>
-    <div className="splash" style={{ backgroundImage: `url(${Splash})` }}>
-      <button>Apply now</button>
-    </div>
+    <Mission />
+    <Manifesto />
+    <Apply />
+    <Activities />
+    <Curriculum />
+    <News />
+    <Donate />
+    <Team />
+    <Join />
+    <Contact />
   </main>
 );
 
