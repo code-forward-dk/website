@@ -10,6 +10,22 @@ const Header = () => (
           <Logo />
         </h1>
       </div>
+      <nav>
+        <ul>
+          <li>
+            <button>Mission</button>
+          </li>
+          <li>
+            <button>Curriculum</button>
+          </li>
+          <li>
+            <button>Team</button>
+          </li>
+          <li>
+            <button className="accent">Support</button>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 );

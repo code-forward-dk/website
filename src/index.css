@@ -16,6 +16,7 @@ body {
   font-family: var(--font-text);
   background-color: hsl(0deg 0% 97.5%);
   color: hsl(0deg 0% 12.5%);
+  line-height: 1;
 
   --color-brand: #008c5b;
   --color-brand-light: #28bd89;
@@ -23,7 +24,6 @@ body {
   --color-black: #282829;
   --color-white: #f2f2f2;
   --site-max-width: 1024px;
-  /* --font-text: "EB Garamond", serif; */
   --font-display: "Jost", sans-serif;
   --font-text: "Libre Baskerville", serif;
   --font-code: "Fira Code", monospace;

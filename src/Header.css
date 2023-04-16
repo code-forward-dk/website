@@ -4,13 +4,18 @@
   box-shadow: 0 12px 12px 6px hsla(0deg 0% 0% / 10%);
   border-bottom: 2px solid var(--color-brand);
   z-index: 1;
+  position: sticky;
+  top: 0;
+  height: 65px;
 }
 
 .site-header-inner-wrapper {
   margin-inline: auto;
   padding-inline: 12px;
-  padding-block: 24px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .site-header .logo-wrapper {
@@ -25,4 +30,32 @@
 
 .site-header h1 {
   line-height: 1;
+}
+
+.site-header-inner-wrapper nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0.5em;
+}
+
+.site-header-inner-wrapper nav button {
+  background-color: transparent;
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+  padding: 6px 12px;
+  border-radius: 20px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.site-header-inner-wrapper nav button.accent {
+  background-color: var(--color-brand);
+  color: var(--color-white);
+}
+
+.site-header-inner-wrapper nav button:is(:hover, :active, :focus-visible) {
+  background-color: var(--color-white);
+  color: var(--color-brand);
 }
