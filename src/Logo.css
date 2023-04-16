@@ -1,5 +1,5 @@
 .logo {
-  font-family: "Fira Code", monospace;
+  font-family: var(--font-code);
   font-weight: normal;
 }
 

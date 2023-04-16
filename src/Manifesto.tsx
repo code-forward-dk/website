@@ -1,7 +1,7 @@
 import Section from "./Section";
 
 const Manifesto = () => (
-  <Section isDark>
+  <Section>
     <h2>The CodeForward Manifesto</h2>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis provident

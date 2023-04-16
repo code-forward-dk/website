@@ -1,4 +1,4 @@
-.site-section-outer-wrapper {
+.site-section-outer-wrapper:not(:first-child) {
   border-top: 2px solid var(--color-brand);
 }
 
@@ -16,10 +16,9 @@
 
 .site-section-outer-wrapper h2 {
   color: var(--color-brand);
-  text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0.5em;
-  font-size: 32px;
+  font-size: 48px;
   letter-spacing: 2px;
 }
 
@@ -28,7 +27,7 @@
 }
 
 .site-section-outer-wrapper p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.85;
   margin-bottom: 1.5em;
 }

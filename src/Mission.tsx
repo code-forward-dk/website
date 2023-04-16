@@ -1,7 +1,7 @@
 import Section from "./Section";
 
 const Mission = () => (
-  <Section>
+  <Section isDark>
     <h2>Our mission</h2>
     <p>
       Our mission is to empower minoritized individuals in Denmark to succeed in

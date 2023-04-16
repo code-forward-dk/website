@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@200;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Jost:wght@400;600&family=Libre+Baskerville:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -12,13 +12,8 @@ body,
   height: 100%;
 }
 
-button,
-input {
-  font-family: inherit;
-}
-
 body {
-  font-family: "Fira Sans", sans-serif;
+  font-family: var(--font-text);
   background-color: hsl(0deg 0% 97.5%);
   color: hsl(0deg 0% 12.5%);
 
@@ -27,7 +22,21 @@ body {
   --color-brand-dark: #006642;
   --color-black: #282829;
   --color-white: #f2f2f2;
-  --site-max-width: 800px;
+  --site-max-width: 1024px;
+  /* --font-text: "EB Garamond", serif; */
+  --font-display: "Jost", sans-serif;
+  --font-text: "Libre Baskerville", serif;
+  --font-code: "Fira Code", monospace;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input {
+  font-family: var(--font-display);
 }
 
 ::-webkit-scrollbar {
