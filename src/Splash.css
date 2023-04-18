@@ -1,0 +1,36 @@
+.splash {
+  min-height: 800px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-inner-wrapper {
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: 12px;
+  padding-block: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.splash p {
+  font-family: var(--font-display);
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.splash em {
+  background-color: var(--color-brand-dark);
+  color: var(--color-white);
+  font-style: inherit;
+  padding-inline: 0.35em;
+  display: inline-block;
+}

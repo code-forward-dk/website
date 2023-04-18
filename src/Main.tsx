@@ -1,3 +1,4 @@
+import Splash from "./Splash";
 import Mission from "./Mission";
 import Manifesto from "./Manifesto";
 import Apply from "./Apply";
@@ -11,6 +12,7 @@ import Contact from "./Contact";
 
 const Main = () => (
   <main className="site-main">
+    <Splash />
     <Mission />
     <Manifesto />
     <Apply />

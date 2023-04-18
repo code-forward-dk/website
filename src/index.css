@@ -20,8 +20,10 @@ body {
 
   --color-brand: #008c5b;
   --color-brand-light: #28bd89;
-  --color-brand-dark: #006642;
+  --color-brand-dark: #00754c;
+  --color-brand-darker: #006642;
   --color-black: #282829;
+  --color-lightgray: #c6d5d0;
   --color-white: #f2f2f2;
   --site-max-width: 1024px;
   --font-display: "Jost", sans-serif;

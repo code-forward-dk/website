@@ -1,5 +1,6 @@
 .site-section-outer-wrapper:not(:first-child) {
   border-top: 2px solid var(--color-brand);
+  background-color: var(--color-lightgray);
 }
 
 .site-section-outer-wrapper.is-dark {
@@ -28,6 +29,6 @@
 
 .site-section-outer-wrapper p {
   font-size: 20px;
-  line-height: 1.85;
+  line-height: 2;
   margin-bottom: 1.5em;
 }

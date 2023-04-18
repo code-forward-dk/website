@@ -13,7 +13,12 @@
   transition: background-color 0.2s;
 }
 
-.apply button:is(:hover, :active, :focus) {
+.apply button:is(:hover, :focus) {
   outline: 0;
   background-color: var(--color-brand-dark);
+}
+
+.apply button:active {
+  outline: 0;
+  background-color: var(--color-brand-darker);
 }
