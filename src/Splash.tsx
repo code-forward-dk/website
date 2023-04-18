@@ -1,5 +1,3 @@
-import Section from "./Section";
-
 import SplashImage from "./splash.jpg";
 
 import "./Splash.css";
