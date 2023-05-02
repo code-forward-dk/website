@@ -1,7 +1,13 @@
+import type { RefObject } from "react";
+
 import Section from "./Section";
 
-const Donate = () => (
-  <Section>
+interface DonateProps {
+  sectionRef: RefObject<HTMLDivElement>;
+}
+
+const Donate = ({ sectionRef }: DonateProps) => (
+  <Section sectionRef={sectionRef}>
     <h2>Support us</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,

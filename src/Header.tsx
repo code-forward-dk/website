@@ -1,8 +1,14 @@
+import classNames from "classnames";
+
 import Logo from "./Logo";
 
 import "./Header.css";
 
-const Header = () => (
+interface HeaderProps {
+  highlightedSectionIndex: number;
+}
+
+const Header = ({ highlightedSectionIndex }: HeaderProps) => (
   <header className="site-header">
     <div className="site-header-inner-wrapper">
       <div className="logo-wrapper">
@@ -13,16 +19,40 @@ const Header = () => (
       <nav>
         <ul>
           <li>
-            <button>Mission</button>
+            <button
+              className={classNames({
+                highlighted: highlightedSectionIndex === 0,
+              })}
+            >
+              Mission
+            </button>
           </li>
           <li>
-            <button>Curriculum</button>
+            <button
+              className={classNames({
+                highlighted: highlightedSectionIndex === 1,
+              })}
+            >
+              Curriculum
+            </button>
           </li>
           <li>
-            <button>Team</button>
+            <button
+              className={classNames({
+                highlighted: highlightedSectionIndex === 2,
+              })}
+            >
+              Team
+            </button>
           </li>
           <li>
-            <button className="accent">Support</button>
+            <button
+              className={classNames("accent", {
+                highlighted: highlightedSectionIndex === 3,
+              })}
+            >
+              Support
+            </button>
           </li>
         </ul>
       </nav>

@@ -55,7 +55,9 @@
   color: var(--color-white);
 }
 
-.site-header-inner-wrapper nav button:is(:hover, :active, :focus-visible) {
+.site-header-inner-wrapper
+  nav
+  button:is(.highlighted, :hover, :active, :focus-visible) {
   background-color: var(--color-white);
   color: var(--color-brand);
 }

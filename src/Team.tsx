@@ -1,7 +1,13 @@
+import type { RefObject } from "react";
+
 import Section from "./Section";
 
-const Team = () => (
-  <Section isDark>
+interface TeamProps {
+  sectionRef: RefObject<HTMLDivElement>;
+}
+
+const Team = ({ sectionRef }: TeamProps) => (
+  <Section sectionRef={sectionRef} isDark>
     <h2>Our team</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
