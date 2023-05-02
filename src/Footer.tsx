@@ -11,6 +11,8 @@ import Logo from "./Logo";
 
 import "./Footer.css";
 
+// TODO: Add footer links
+
 const Footer = () => (
   <footer className="site-footer">
     <div className="site-footer-inner-wrapper">

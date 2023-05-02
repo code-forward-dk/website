@@ -12,6 +12,8 @@ interface CurriculumProps {
   sectionRef: RefObject<HTMLDivElement>;
 }
 
+// TODO: Replace images
+
 const Curriculum = ({ sectionRef }: CurriculumProps) => (
   <Section sectionRef={sectionRef}>
     <h2>Our curriculum</h2>
