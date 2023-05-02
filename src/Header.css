@@ -1,7 +1,7 @@
 .site-header {
   background-color: var(--color-black);
   color: var(--color-white);
-  box-shadow: 0 12px 12px 6px hsla(0deg 0% 0% / 10%);
+  box-shadow: 0 12px 12px 6px hsla(0deg 0% 0% / 20%);
   border-bottom: 2px solid var(--color-brand);
   z-index: 1;
   position: sticky;
