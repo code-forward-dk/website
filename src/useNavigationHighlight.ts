@@ -36,12 +36,13 @@ const useNavigationHighlight = () => {
       );
     };
 
-    // TODO: Also do this on window resize
     // TODO: Scroll to section on menu item click
     window.addEventListener("scroll", windowChangeListener);
+    window.addEventListener("resize", windowChangeListener);
 
     return () => {
       window.removeEventListener("scroll", windowChangeListener);
+      window.addEventListener("resize", windowChangeListener);
     };
   }, []);
 
