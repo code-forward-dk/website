@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
+import type { RefObject } from "react";
 
 const useNavigationHighlight = () => {
   const missionSectionRef = useRef<HTMLDivElement>(null);
@@ -36,7 +37,6 @@ const useNavigationHighlight = () => {
       );
     };
 
-    // TODO: Scroll to section on menu item click
     window.addEventListener("scroll", windowChangeListener);
     window.addEventListener("resize", windowChangeListener);
 
@@ -46,12 +46,20 @@ const useNavigationHighlight = () => {
     };
   }, []);
 
+  const onScrollToSection = useCallback(
+    (sectionRef: RefObject<HTMLDivElement>) => {
+      sectionRef.current?.scrollIntoView({ behavior: "smooth" });
+    },
+    []
+  );
+
   return {
     highlightedSectionIndex,
     missionSectionRef,
     curriculumSectionRef,
     teamSectionRef,
     supportSectionRef,
+    onScrollToSection,
   };
 };
 

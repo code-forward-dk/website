@@ -1,6 +1,7 @@
 .site-section-outer-wrapper:not(:first-child) {
   border-top: 2px solid var(--color-brand);
   background-color: var(--color-lightgray);
+  scroll-margin: calc(var(--header-height) - 2px);
 }
 
 .site-section-outer-wrapper.is-dark {

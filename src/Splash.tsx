@@ -1,13 +1,20 @@
+import type { RefObject } from "react";
+
 import SplashImage from "./splash.jpg";
 
 import "./Splash.css";
 
-const Splash = () => (
+interface SplashProps {
+  sectionRef: RefObject<HTMLDivElement>;
+}
+
+const Splash = ({ sectionRef }: SplashProps) => (
   <div
     className="splash"
     style={{
       backgroundImage: `url(${SplashImage})`,
     }}
+    ref={sectionRef}
   >
     <div className="splash-inner-wrapper">
       <p>

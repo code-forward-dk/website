@@ -21,8 +21,8 @@ const Main = ({
   supportSectionRef,
 }: MainProps) => (
   <main className="site-main">
-    <Splash />
-    <Mission sectionRef={missionSectionRef} />
+    <Splash sectionRef={missionSectionRef} />
+    <Mission />
     <Curriculum sectionRef={curriculumSectionRef} />
     <Team sectionRef={teamSectionRef} />
     <Donate sectionRef={supportSectionRef} />

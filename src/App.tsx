@@ -13,11 +13,19 @@ const App = () => {
     curriculumSectionRef,
     teamSectionRef,
     supportSectionRef,
+    onScrollToSection,
   } = useNavigationHighlight();
 
   return (
     <div className="site">
-      <Header highlightedSectionIndex={highlightedSectionIndex} />
+      <Header
+        highlightedSectionIndex={highlightedSectionIndex}
+        missionSectionRef={missionSectionRef}
+        curriculumSectionRef={curriculumSectionRef}
+        teamSectionRef={teamSectionRef}
+        supportSectionRef={supportSectionRef}
+        onScrollToSection={onScrollToSection}
+      />
       <Main
         missionSectionRef={missionSectionRef}
         curriculumSectionRef={curriculumSectionRef}

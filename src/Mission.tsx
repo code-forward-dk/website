@@ -1,13 +1,7 @@
-import type { RefObject } from "react";
-
 import Section from "./Section";
 
-interface MissionProps {
-  sectionRef: RefObject<HTMLDivElement>;
-}
-
-const Mission = ({ sectionRef }: MissionProps) => (
-  <Section sectionRef={sectionRef} isDark>
+const Mission = () => (
+  <Section isDark>
     <h2>Our mission</h2>
     <p>
       We empower minoritized individuals in Denmark to succeed in the tech
